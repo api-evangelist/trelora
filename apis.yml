@@ -1,8 +1,30 @@
 aid: trelora
 name: Trelora
-description: Trelora is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Trelora is a technology-driven, full-service discount real estate brokerage
+  founded in Denver, Colorado and now operating as part of HomeSmart. It lets
+  people buy and sell homes for a low, transparent fee instead of the
+  traditional percentage-based commission, helping sellers save thousands of
+  dollars and offering buyers cash-back rebates of up to several thousand
+  dollars at closing. Trelora pairs salaried, non-commissioned real estate
+  agents with an online platform and IDX-powered property search across markets
+  including Colorado, Washington, and other U.S. states, and publishes a real
+  estate blog, glossary, and city-level market reports. Originally a
+  Techstars-backed startup, Trelora is consumer-facing and does not currently
+  expose a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/trelora/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.trelora.com/wp-content/uploads/2022/02/fsr-card-1.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- Real Estate Brokerage
+- Home Buying
+- Home Selling
+- Real Estate Commissions
+- Discount Brokerage
+- IDX
+- Property Search
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://trelora.com/
+- type: Blog
+  url: https://www.trelora.com/blog/
+- type: Support
+  url: https://www.trelora.com/contact/
+- type: SignUp
+  url: https://www.trelora.com/sign-up/
+- type: Login
+  url: https://www.trelora.com/login/
+- type: TermsOfService
+  url: https://www.trelora.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.trelora.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/trelora-llms.txt
+- type: DomainSecurity
+  url: security/trelora-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
